@@ -1,0 +1,43 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.pane {
+  height: 50vh;
+  display: flex;
+  background-color: #cbd5e1; /* tailwind's bg-gray-400 */
+}
+
+/* Editor styles */
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.editor-titlebar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.editor-content {
+  flex-grow: 1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Button icon spacing */
+.icon-button {
+  margin-left: 0.5rem;
+}
